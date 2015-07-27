@@ -1,0 +1,28 @@
+import Enum from 'enum.js';
+
+export default new Enum([
+  'OBJ_VLINE',
+  'OBJ_HLINE',
+  'OBJ_TREND',
+  'OBJ_TRENDBYANGLE',
+  'OBJ_REGRESSION',
+  'OBJ_CHANNEL',
+  'OBJ_STDDEVCHANNEL',
+  'OBJ_GANNLINE',
+  'OBJ_GANNFAN',
+  'OBJ_GANNGRID',
+  'OBJ_FIBO',
+  'OBJ_FIBOTIMES',
+  'OBJ_FIBOFAN',
+  'OBJ_FIBOARC',
+  'OBJ_EXPANSION',
+  'OBJ_FIBOCHANNEL',
+  'OBJ_RECTANGLE',
+  'OBJ_TRIANGLE',
+  'OBJ_ELLIPSE',
+  'OBJ_PITCHFORK',
+  'OBJ_CYCLES',
+  'OBJ_TEXT',
+  'OBJ_ARROW',
+  'OBJ_LABEL'
+]);

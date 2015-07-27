@@ -1,0 +1,42 @@
+{
+  "name": "MTArchJs.Lib",
+  "version": "0.0.0",
+  "author": "Marcelo Fernandes",
+  "description": "Boilerplate code to create ES6 libraries",
+  "main": "dist/MyLibrary.js",
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp build"
+  },
+  "devDependencies": {
+    "babel": "^5.1.11",
+    "chai": "^2.2.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-watch": "^4.2.4",
+    "isparta": "^3.0.3",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.4",
+    "xunit-file": "0.0.6"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abiee/clean-es6-project.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "boilerplate",
+    "es6",
+    "starter"
+  ],
+  "licence": "MIT"
+}
